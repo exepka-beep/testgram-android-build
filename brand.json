@@ -1,0 +1,125 @@
+{
+  "_comment": "Сгенерировано NeonBuilder. Единый конфиг бренда TestGram.",
+  "product": {
+    "name": "TestGram",
+    "short_name": "TestGram",
+    "username_prefix": "testgram",
+    "app_scheme": "testgram",
+    "premium_name": "TestGram Premium",
+    "stars_name": "TestGram Stars",
+    "org_name": "TestGram"
+  },
+  "replace": {
+    "_comment": "Правила замены строк. Порядок важен: длинные раньше коротких.",
+    "rules": [
+      {
+        "from": "XTree Gram",
+        "to": "TestGram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "Xtreegram",
+        "to": "TestGram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "XTREEGRAM",
+        "to": "TESTGRAM",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "NeonGram",
+        "to": "TestGram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "NEONGRAM",
+        "to": "TESTGRAM",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "neongram",
+        "to": "testgram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "Telegram",
+        "to": "TestGram",
+        "skip_after": [
+          ".org",
+          ".ORG"
+        ],
+        "skip_before": [
+          "/"
+        ]
+      },
+      {
+        "from": "TELEGRAM",
+        "to": "TESTGRAM",
+        "skip_after": [
+          ".ORG"
+        ],
+        "skip_before": [
+          "/"
+        ]
+      }
+    ]
+  },
+  "android": {
+    "app_name": "TestGram",
+    "app_name_beta": "TestGram Beta",
+    "package": "com.testgram.messenger",
+    "namespace": "org.telegram.messenger.regular",
+    "flavor": "afat",
+    "keystore_file": "release.keystore",
+    "keystore_alias": "testgramkey",
+    "keystore_type": "PKCS12",
+    "keystore_keyalg": "RSA",
+    "keystore_keysize": 4096,
+    "keystore_validity_days": 10950,
+    "keystore_cert_sha256": "F8:EA:C2:3C:FD:B6:C7:12:26:88:8A:28:74:7C:15:26:4F:49:03:6F:08:CF:C1:39:31:B0:29:C0:36:05:15:FD"
+  },
+  "ios": {
+    "app_name": "TestGram",
+    "bundle_id": "com.testgram.messenger"
+  },
+  "desktop": {
+    "app_name": "TestGram Desktop",
+    "short_app_name": "TestGram",
+    "application_name": "TestGramDesktop",
+    "company_name": "TestGram",
+    "bundle_id": "com.testgram.desktop",
+    "linux_app_id": "com.testgram.desktop"
+  },
+  "pc_client": {
+    "distribution": "prebuilt",
+    "source_releases": "https://github.com/owpengram/owpengram-desktop-client/releases",
+    "exe_name": "TestGram.exe",
+    "server_name": "TestGram",
+    "server_description": "Self-hosted TestGram server.",
+    "server_icon_env": "TELESRV_OWPENGRAM_SERVER_ICON"
+  },
+  "server": {
+    "domain": "1.2.3.4",
+    "base_url": "http://1.2.3.4",
+    "web_base_url": "http://1.2.3.4",
+    "advertise_ip": "1.2.3.4",
+    "public_listen_host": "127.0.0.1",
+    "server_port": 2398,
+    "dc_id": 2,
+    "default_country_code": "US",
+    "websocket_allowed_origins": "http://1.2.3.4",
+    "image_prefix": "ghcr.io/iamxvbaba/gramsrv",
+    "image_tag": "main"
+  },
+  "telegram_bot": {
+    "username": "TestGramAuth_bot",
+    "token": "PLACEHOLDER_BOT_TOKEN"
+  }
+}
